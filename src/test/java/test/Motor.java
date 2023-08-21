@@ -5,14 +5,15 @@ public class Motor {
 	String tipo;
 	int registro;
 	
-	void cambiarRegistro(int nuevoregistro) {
-		registro = nuevoregistro;
+	void cambiarRegistro(int registro) {
+		this.registro = registro;
 	}
 	
-	void asigarTipo (String tipo) {
-		if (tipo == "electrico" || tipo == "gasolina") {
-			this.tipo=tipo;
-		}
+	void asignarTipo(String tipo) {
 		
+		if (tipo == "electrico" || tipo == "gasolina") {
+			
+			this.tipo = tipo;
+		}
+		}
 	}
-}
